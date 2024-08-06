@@ -15,7 +15,7 @@ public class OrderAddress {
     private final String street;
     @NotNull
     @Max(value = 10)
-    private final String postaCode;
+    private final String postalCode;
     @NotNull
     @Max(value = 50)
     private final String city;
