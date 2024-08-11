@@ -4,10 +4,7 @@ target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+/.idea
 *.iws
 *.iml
 *.ipr
@@ -36,3 +33,12 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### infrastructure ###
+# kafka
+/infrastructure/docker-compose/volumes/kafka/broker-1/*
+/infrastructure/docker-compose/volumes/kafka/broker-2/*
+/infrastructure/docker-compose/volumes/kafka/broker-3/*
+# zookeeper
+/infrastructure/docker-compose/volumes/zookeeper/data/*
+/infrastructure/docker-compose/volumes/zookeeper/transactions/*
